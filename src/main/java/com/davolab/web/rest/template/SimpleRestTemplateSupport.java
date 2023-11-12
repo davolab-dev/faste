@@ -1,11 +1,11 @@
 package com.davolab.web.rest.template;
 
+import com.davolab.dao.GenericDao;
+import com.davolab.dao.support.Page;
 import com.davolab.web.rest.template.dto.ApiResponseDto;
 import com.davolab.web.rest.template.dto.PaginationDto;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.davolab.dao.GenericDao;
-import com.davolab.dao.support.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
