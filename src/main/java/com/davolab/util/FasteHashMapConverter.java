@@ -31,9 +31,10 @@ public class FasteHashMapConverter implements AttributeConverter<Map<String, Obj
 
         Map<String, Object> data = null;
         try {
-            data = new ObjectMapper().readValue(dataJSON,
-                    new TypeReference<HashMap<String, Object>>() {
-                    });
+            if (dataJSON != null && !dataJSON.isEmpty()) {
+                data = new ObjectMapper().readValue(dataJSON, new TypeReference<HashMap<String, Object>>() {
+                });
+            }
         } catch (final IOException e) {
             log.error("JSON reading error", e);
         }
