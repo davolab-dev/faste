@@ -165,6 +165,7 @@ public class FasteResource<T, ID extends Serializable, K, V> {
      *
      * @param resource the resource
      * @param entity   the entity
+     * @param id  the id
      * @return the response entity
      */
     @PutMapping("/dynamic/update/{id}")

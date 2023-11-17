@@ -161,6 +161,7 @@ Desktop.ini
 *.*~
 *~
 .merge_file*
+pom.xml.versionsBackup
 
 ######################
 # Gradle Wrapper

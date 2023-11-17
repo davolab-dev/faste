@@ -4,7 +4,6 @@ package io.github.davolabsl.advice.exception;
  * The type Code exception.
  *
  * @author - Shehara
- * @date - 1/25/2022
  */
 public class FasteException extends RuntimeException {
     /**

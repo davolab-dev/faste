@@ -2,7 +2,6 @@ package io.github.davolabsl.advice.exception;
 
 /**
  * @author - Shehara
- * @date - 1/25/2022
  */
 
 public class ExceptionResponse {

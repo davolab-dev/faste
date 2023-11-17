@@ -4,7 +4,6 @@ import java.util.List;
 
 /**
  * @author - Shehara
- * @date - 2/4/2022
  */
 
 public class AdditionalHttpInfo {

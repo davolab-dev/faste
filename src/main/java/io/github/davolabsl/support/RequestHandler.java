@@ -164,6 +164,7 @@ public class RequestHandler<T, ID extends Serializable, K, V> {
      *
      * @param aClass the a class
      * @param entity the entity
+     * @param id the id
      * @return the t
      */
     public T dynamicUpdateHandler(Class<?> aClass, T entity, ID id) {

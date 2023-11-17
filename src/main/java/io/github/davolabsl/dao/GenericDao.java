@@ -147,8 +147,9 @@ public interface GenericDao<T, ID extends Serializable, K, V> {
      * @param conditions the conditions
      * @param page       the page
      * @param size       the size
-     * @param resultType
-     * @param orderBy
+     * @param resultType resultType
+     * @param orderBy orderBy
+     * @param conditionSeparators conditionSeparators
      * @return the object
      */
     Object findSelectedByGivenKeyValue(T aClass, String[] keys, String[] values, String[] fields, String[] conditions, String[] conditionSeparators, Integer page, Integer size, String resultType, String[] orderBy);
