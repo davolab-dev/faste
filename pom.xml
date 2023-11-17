@@ -5,7 +5,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.davolab</groupId>
+    <groupId>io.github.davolab</groupId>
     <artifactId>faste</artifactId>
     <version>0.0.1</version>
 
@@ -13,7 +13,6 @@
         <java.version>1.8</java.version>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-        <activiti.version>6.0.0</activiti.version>
         <spring.boot.version>2.5.4</spring.boot.version>
     </properties>
 
