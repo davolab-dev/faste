@@ -239,7 +239,7 @@ public class SwaggerResourceHandler {
             frd.setRequestDetails(requestDetail);
             return frd;
         } catch (Exception e) {
-            throw new FasteException("", e);
+            throw new FasteException("Unexpected error while processing", e);
         }
     }
 }
