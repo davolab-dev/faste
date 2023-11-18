@@ -14,7 +14,7 @@
         <java.version>1.8</java.version>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-        <spring.boot.version>2.5.4</spring.boot.version>
+        <spring.boot.version>2.5.12</spring.boot.version>
     </properties>
 
     <name>Faste</name>
